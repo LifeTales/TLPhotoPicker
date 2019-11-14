@@ -21,5 +21,6 @@ open class TLCollectionTableViewCell: UITableViewCell {
         if #available(iOS 13.0, *) {
             self.contentView.backgroundColor = .systemBackground
         }
+        tintColor = UIColor(red: 122/255, green: 105/255, blue: 191/255, alpha: 1.0) // brandPrimary
     }
 }
